@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		895134A92CEDD5C200C1F42D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 895134902CEDD5C100C1F42D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 895134972CEDD5C100C1F42D;
+			remoteInfo = LiquidTracker;
+		};
+		895134B32CEDD5C200C1F42D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 895134902CEDD5C100C1F42D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 895134972CEDD5C100C1F42D;
+			remoteInfo = LiquidTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		895134982CEDD5C100C1F42D /* LiquidTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		895134A82CEDD5C200C1F42D /* LiquidTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiquidTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		895134B22CEDD5C200C1F42D /* LiquidTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiquidTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8951349A2CEDD5C100C1F42D /* LiquidTracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LiquidTracker;
+			sourceTree = "<group>";
+		};
+		895134AB2CEDD5C200C1F42D /* LiquidTrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LiquidTrackerTests;
+			sourceTree = "<group>";
+		};
+		895134B52CEDD5C200C1F42D /* LiquidTrackerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LiquidTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		895134952CEDD5C100C1F42D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895134A52CEDD5C200C1F42D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895134AF2CEDD5C200C1F42D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8951348F2CEDD5C100C1F42D = {
+			isa = PBXGroup;
+			children = (
+				8951349A2CEDD5C100C1F42D /* LiquidTracker */,
+				895134AB2CEDD5C200C1F42D /* LiquidTrackerTests */,
+				895134B52CEDD5C200C1F42D /* LiquidTrackerUITests */,
+				895134992CEDD5C100C1F42D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		895134992CEDD5C100C1F42D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				895134982CEDD5C100C1F42D /* LiquidTracker.app */,
+				895134A82CEDD5C200C1F42D /* LiquidTrackerTests.xctest */,
+				895134B22CEDD5C200C1F42D /* LiquidTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		895134972CEDD5C100C1F42D /* LiquidTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895134BC2CEDD5C200C1F42D /* Build configuration list for PBXNativeTarget "LiquidTracker" */;
+			buildPhases = (
+				895134942CEDD5C100C1F42D /* Sources */,
+				895134952CEDD5C100C1F42D /* Frameworks */,
+				895134962CEDD5C100C1F42D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8951349A2CEDD5C100C1F42D /* LiquidTracker */,
+			);
+			name = LiquidTracker;
+			packageProductDependencies = (
+			);
+			productName = LiquidTracker;
+			productReference = 895134982CEDD5C100C1F42D /* LiquidTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		895134A72CEDD5C200C1F42D /* LiquidTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895134BF2CEDD5C200C1F42D /* Build configuration list for PBXNativeTarget "LiquidTrackerTests" */;
+			buildPhases = (
+				895134A42CEDD5C200C1F42D /* Sources */,
+				895134A52CEDD5C200C1F42D /* Frameworks */,
+				895134A62CEDD5C200C1F42D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				895134AA2CEDD5C200C1F42D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				895134AB2CEDD5C200C1F42D /* LiquidTrackerTests */,
+			);
+			name = LiquidTrackerTests;
+			packageProductDependencies = (
+			);
+			productName = LiquidTrackerTests;
+			productReference = 895134A82CEDD5C200C1F42D /* LiquidTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		895134B12CEDD5C200C1F42D /* LiquidTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895134C22CEDD5C200C1F42D /* Build configuration list for PBXNativeTarget "LiquidTrackerUITests" */;
+			buildPhases = (
+				895134AE2CEDD5C200C1F42D /* Sources */,
+				895134AF2CEDD5C200C1F42D /* Frameworks */,
+				895134B02CEDD5C200C1F42D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				895134B42CEDD5C200C1F42D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				895134B52CEDD5C200C1F42D /* LiquidTrackerUITests */,
+			);
+			name = LiquidTrackerUITests;
+			packageProductDependencies = (
+			);
+			productName = LiquidTrackerUITests;
+			productReference = 895134B22CEDD5C200C1F42D /* LiquidTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		895134902CEDD5C100C1F42D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					895134972CEDD5C100C1F42D = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					895134A72CEDD5C200C1F42D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 895134972CEDD5C100C1F42D;
+					};
+					895134B12CEDD5C200C1F42D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 895134972CEDD5C100C1F42D;
+					};
+				};
+			};
+			buildConfigurationList = 895134932CEDD5C100C1F42D /* Build configuration list for PBXProject "LiquidTracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8951348F2CEDD5C100C1F42D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 895134992CEDD5C100C1F42D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				895134972CEDD5C100C1F42D /* LiquidTracker */,
+				895134A72CEDD5C200C1F42D /* LiquidTrackerTests */,
+				895134B12CEDD5C200C1F42D /* LiquidTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		895134962CEDD5C100C1F42D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895134A62CEDD5C200C1F42D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895134B02CEDD5C200C1F42D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		895134942CEDD5C100C1F42D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895134A42CEDD5C200C1F42D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895134AE2CEDD5C200C1F42D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		895134AA2CEDD5C200C1F42D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 895134972CEDD5C100C1F42D /* LiquidTracker */;
+			targetProxy = 895134A92CEDD5C200C1F42D /* PBXContainerItemProxy */;
+		};
+		895134B42CEDD5C200C1F42D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 895134972CEDD5C100C1F42D /* LiquidTracker */;
+			targetProxy = 895134B32CEDD5C200C1F42D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		895134BA2CEDD5C200C1F42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		895134BB2CEDD5C200C1F42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		895134BD2CEDD5C200C1F42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiquidTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 4N7DLH8659;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmerza.LiquidTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		895134BE2CEDD5C200C1F42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiquidTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 4N7DLH8659;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmerza.LiquidTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		895134C02CEDD5C200C1F42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmerza.LiquidTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiquidTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiquidTracker";
+			};
+			name = Debug;
+		};
+		895134C12CEDD5C200C1F42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmerza.LiquidTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiquidTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiquidTracker";
+			};
+			name = Release;
+		};
+		895134C32CEDD5C200C1F42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmerza.LiquidTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiquidTracker;
+			};
+			name = Debug;
+		};
+		895134C42CEDD5C200C1F42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmerza.LiquidTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiquidTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		895134932CEDD5C100C1F42D /* Build configuration list for PBXProject "LiquidTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895134BA2CEDD5C200C1F42D /* Debug */,
+				895134BB2CEDD5C200C1F42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895134BC2CEDD5C200C1F42D /* Build configuration list for PBXNativeTarget "LiquidTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895134BD2CEDD5C200C1F42D /* Debug */,
+				895134BE2CEDD5C200C1F42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895134BF2CEDD5C200C1F42D /* Build configuration list for PBXNativeTarget "LiquidTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895134C02CEDD5C200C1F42D /* Debug */,
+				895134C12CEDD5C200C1F42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895134C22CEDD5C200C1F42D /* Build configuration list for PBXNativeTarget "LiquidTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895134C32CEDD5C200C1F42D /* Debug */,
+				895134C42CEDD5C200C1F42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 895134902CEDD5C100C1F42D /* Project object */;
+}
